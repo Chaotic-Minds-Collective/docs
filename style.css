@@ -17,13 +17,11 @@ toc-item[data-active-deepest] > a::before {
   pointer-events: none;
 }
 
-/* topbar logo: render smaller than its natural width */
-#navbar a[href="/"] img,
-#navbar a[href="/"] svg,
-#sidebar a[href="/"] img,
-#sidebar a[href="/"] svg {
-  max-width: 14rem;
-  height: auto;
+/* topbar logo: larger fixed height, width scales to match */
+img.nav-logo {
+  height: 3.75rem !important;
+  width: auto !important;
+  max-width: none !important;
 }
 
 a[nav-tabs-item] {
