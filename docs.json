@@ -1,16 +1,16 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "sequoia",
+  "theme": "almond",
   "name": "Knowledge base",
   "description": "Onboarding, employee handbook, HR guides, IT help, company policies, and department runbooks.",
   "colors": {
-    "primary": "#166E3F",
-    "light": "#26BD6C",
-    "dark": "#166E3F"
+    "primary": "#020303",
+    "light": "#02FADB",
+    "dark": "#0BCBA3"
   },
   "favicon": "/favicon.ico",
   "icons": {
-    "library": "lucide"
+    "library": "fontawesome"
   },
   "metadata": {
     "timestamp": true
@@ -175,5 +175,8 @@
       "x": "https://x.com/yourcompany",
       "linkedin": "https://linkedin.com/company/yourcompany"
     }
+  },
+  "appearance": {
+    "default": "dark"
   }
 }
