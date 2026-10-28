@@ -178,5 +178,8 @@
   },
   "appearance": {
     "default": "dark"
+  },
+  "styling": {
+    "eyebrows": "section"
   }
 }
