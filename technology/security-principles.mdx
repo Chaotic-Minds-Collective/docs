@@ -1,0 +1,30 @@
+---
+title: "Technology and Security Principles"
+description: "Review the security, privacy, maintenance, and technical quality principles that guide technology work across the Collective."
+---
+
+# Technology and security principles
+
+Technology supports the work of Chaotic Minds Collective, but tools and infrastructure should serve a clear purpose. Technical decisions should account for security, privacy, cost, reliability, and the ability to maintain what is built.
+
+## Build and change carefully
+
+Before changing an existing system, understand its current behavior and dependencies. Preserve working functionality and data. Separate prototypes and experiments from production systems.
+
+A proposed fix should not be described as implemented until the change has actually been made. Implementation should not be described as tested until verification has occurred.
+
+## Protect information
+
+Credentials, API keys, private information, client data, and confidential project details must not be exposed in public documentation or source control.
+
+Public documentation should explain relevant principles and user-facing behavior without publishing private infrastructure details, access instructions, secrets, or sensitive security findings.
+
+## Prefer maintainable solutions
+
+Technical work should be understandable and documented. Record relevant dependencies, configuration decisions, known limitations, and handover information so that future maintenance does not depend on undocumented assumptions.
+
+## Review before release
+
+Security-sensitive, irreversible, public-facing, and production changes require appropriate review and explicit approval. Testing should be performed in a safe environment, and live systems should not be used for experiments that could affect real users or data.
+
+This page sets out public-facing principles. It intentionally does not disclose credentials, private architecture, or operational access procedures.
