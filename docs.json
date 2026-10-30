@@ -1,14 +1,17 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "almond",
-  "name": "Knowledge base",
-  "description": "Onboarding, employee handbook, HR guides, IT help, company policies, and department runbooks.",
+  "name": "Chaotic Minds Collective Handbook",
+  "description": "Anything and everything chaotic",
   "colors": {
     "primary": "#020303",
     "light": "#02FADB",
     "dark": "#0BCBA3"
   },
-  "favicon": "/favicon.ico",
+  "favicon": {
+    "light": "/images/LogoDesignfromReferenceImage(1).jpg",
+    "dark": "/images/LogoDesignfromReferenceImage(1).jpg"
+  },
   "icons": {
     "library": "fontawesome"
   },
@@ -190,5 +193,8 @@
   },
   "styling": {
     "eyebrows": "section"
+  },
+  "fonts": {
+    "family": "Playfair Display"
   }
 }
