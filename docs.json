@@ -1,10 +1,10 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "almond",
-  "name": "Chaotic Minds Collective Handbook",
-  "description": "Anything and everything chaotic",
+  "name": "Chaotic Minds Collective",
+  "description": "The public handbook for Chaotic Minds Collective, its divisions, projects, shared identity, and operating principles.",
   "colors": {
-    "primary": "#020303",
+    "primary": "#02FADB",
     "light": "#02FADB",
     "dark": "#0BCBA3"
   },
@@ -12,189 +12,74 @@
     "light": "/images/LogoDesignfromReferenceImage(1).jpg",
     "dark": "/images/LogoDesignfromReferenceImage(1).jpg"
   },
-  "icons": {
-    "library": "fontawesome"
+  "logo": {
+    "light": "/images/LogoDesignfromReferenceImage(1).png",
+    "dark": "/images/LogoDesignfromReferenceImage(1).png"
   },
-  "metadata": {
-    "timestamp": true
+  "appearance": {
+    "default": "dark"
   },
-  "contextual": {
-    "options": ["copy", "view", "assistant", "mcp", "add-mcp"]
+  "fonts": {
+    "family": "Inter"
   },
   "navigation": {
     "tabs": [
       {
-        "tab": "Onboarding",
+        "tab": "Handbook",
+        "icon": "book-open",
         "groups": [
           {
             "group": "Welcome",
-            "pages": ["index"]
+            "icon": "house",
+            "pages": ["index", "about/index"]
           },
           {
-            "group": "Your first days",
+            "group": "The Collective",
+            "icon": "network",
+            "pages": ["divisions/index"]
+          },
+          {
+            "group": "Our Divisions",
+            "icon": "layers",
             "pages": [
-              "onboarding/first-day",
-              "onboarding/first-week",
-              "onboarding/meet-the-team"
+              "divisions/creations",
+              "divisions/solutions",
+              "divisions/gaming"
             ]
           },
           {
-            "group": "Tools & access",
-            "pages": [
-              "onboarding/tools/laptop-setup",
-              "onboarding/tools/account-access",
-              "onboarding/tools/vpn-setup"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "HR & People",
-        "groups": [
-          {
-            "group": "Overview",
-            "pages": ["hr-people/index"]
+            "group": "Projects",
+            "icon": "blocks",
+            "pages": ["projects/index"]
           },
           {
-            "group": "Benefits & time off",
-            "pages": [
-              "hr-people/benefits",
-              "hr-people/time-off"
-            ]
+            "group": "How We Work",
+            "icon": "workflow",
+            "pages": ["governance/operating-principles"]
           },
           {
-            "group": "Growth & pay",
+            "group": "Brand & Standards",
+            "icon": "palette",
             "pages": [
-              "hr-people/performance-reviews",
-              "hr-people/compensation/index",
-              "hr-people/compensation/salary-bands",
-              "hr-people/compensation/equity-overview"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "IT & Security",
-        "groups": [
-          {
-            "group": "Overview",
-            "pages": ["it-security/index"]
-          },
-          {
-            "group": "Access & devices",
-            "pages": [
-              "it-security/access-requests",
-              "it-security/device-policy"
-            ]
-          },
-          {
-            "group": "Security training",
-            "pages": [
-              "it-security/security-training/index",
-              "it-security/security-training/phishing",
-              "it-security/security-training/data-handling"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Policies",
-        "groups": [
-          {
-            "group": "Overview",
-            "pages": ["policies/index"]
-          },
-          {
-            "group": "Conduct & spend",
-            "pages": [
-              "policies/code-of-conduct",
-              "policies/expense-reimbursement",
-              "policies/travel-policy"
-            ]
-          },
-          {
-            "group": "Remote work",
-            "pages": [
-              "policies/remote-work/index",
-              "policies/remote-work/home-office-setup",
-              "policies/remote-work/time-zones"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Engineering",
-        "groups": [
-          {
-            "group": "Overview",
-            "pages": ["engineering/index"]
-          },
-          {
-            "group": "Setup & deployment",
-            "pages": [
-              "engineering/dev-setup",
-              "engineering/deployment"
-            ]
-          },
-          {
-            "group": "Incident response",
-            "pages": [
-              "engineering/incident-response/index",
-              "engineering/incident-response/on-call",
-              "engineering/incident-response/postmortem"
-            ]
-          },
-          {
-            "group": "Architecture",
-            "pages": [
-              "engineering/architecture/index",
-              "engineering/architecture/services-overview",
-              "engineering/architecture/data-models"
+              "brand/identity",
+              "technology/security-principles"
             ]
           }
         ]
       },
       {
         "tab": "Changelog",
+        "icon": "list",
         "groups": [
           {
-            "group": "Changelog",
+            "group": "Updates",
             "pages": ["changelog"]
           }
         ]
       }
     ]
   },
-  "logo": {
-    "light": "/images/LogoDesignfromReferenceImage(1).png",
-    "dark": "/images/LogoDesignfromReferenceImage(1).png"
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "Submit IT ticket",
-        "href": "/it-security/access-requests"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Employee portal",
-      "href": "https://dashboard.mintlify.com"
-    }
-  },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/yourcompany",
-      "linkedin": "https://linkedin.com/company/yourcompany"
-    }
-  },
-  "appearance": {
-    "default": "dark"
-  },
   "styling": {
     "eyebrows": "section"
-  },
-  "fonts": {
-    "family": "Playfair Display"
   }
 }
