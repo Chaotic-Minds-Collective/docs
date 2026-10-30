@@ -31,12 +31,17 @@
           {
             "group": "Welcome",
             "icon": "house",
-            "pages": ["index", "about/index"]
+            "pages": [
+              "index",
+              "about/index"
+            ]
           },
           {
             "group": "The Collective",
             "icon": "network",
-            "pages": ["divisions/index"]
+            "pages": [
+              "divisions/index"
+            ]
           },
           {
             "group": "Our Divisions",
@@ -50,12 +55,16 @@
           {
             "group": "Projects",
             "icon": "blocks",
-            "pages": ["projects/index"]
+            "pages": [
+              "projects/index"
+            ]
           },
           {
             "group": "How We Work",
             "icon": "workflow",
-            "pages": ["governance/operating-principles"]
+            "pages": [
+              "governance/operating-principles"
+            ]
           },
           {
             "group": "Brand & Standards",
@@ -73,7 +82,9 @@
         "groups": [
           {
             "group": "Updates",
-            "pages": ["changelog"]
+            "pages": [
+              "changelog"
+            ]
           }
         ]
       }
@@ -81,5 +92,8 @@
   },
   "styling": {
     "eyebrows": "section"
+  },
+  "icons": {
+    "library": "lucide"
   }
 }
