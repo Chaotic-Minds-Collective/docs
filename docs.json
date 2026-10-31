@@ -13,8 +13,8 @@
     "dark": "/images/LogoDesignfromReferenceImage(1).jpg"
   },
   "logo": {
-    "light": "/images/LogoDesignfromReferenceImage(1).png",
-    "dark": "/images/LogoDesignfromReferenceImage(1).png"
+    "light": "/images/LogoDesignfromReferenceImage(1).jpg",
+    "dark": "/images/LogoDesignfromReferenceImage(1).jpg"
   },
   "appearance": {
     "default": "dark"
