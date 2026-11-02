@@ -1,99 +1,21 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
-  "theme": "almond",
+  "$schema": "https://papervine.io/schema.json",
   "name": "Chaotic Minds Collective",
-  "description": "The public handbook for Chaotic Minds Collective, its divisions, projects, shared identity, and operating principles.",
+  "theme": "mint",
   "colors": {
-    "primary": "#02FADB",
-    "light": "#02FADB",
-    "dark": "#0BCBA3"
-  },
-  "favicon": {
-    "light": "/images/LogoDesignfromReferenceImage(1).jpg",
-    "dark": "/images/LogoDesignfromReferenceImage(1).jpg"
-  },
-  "logo": {
-    "light": "/images/LogoDesignfromReferenceImage(1).jpg",
-    "dark": "/images/LogoDesignfromReferenceImage(1).jpg"
-  },
-  "appearance": {
-    "default": "dark"
-  },
-  "fonts": {
-    "family": "Inter"
+    "primary": "#16A34A",
+    "light": "#4ADE80",
+    "dark": "#15803D"
   },
   "navigation": {
-    "tabs": [
+    "groups": [
       {
-        "tab": "Handbook",
-        "icon": "book-open",
-        "groups": [
-          {
-            "group": "Welcome",
-            "icon": "house",
-            "pages": [
-              "index",
-              "about/index"
-            ]
-          },
-          {
-            "group": "The Collective",
-            "icon": "network",
-            "pages": [
-              "divisions/index"
-            ]
-          },
-          {
-            "group": "Our Divisions",
-            "icon": "layers",
-            "pages": [
-              "divisions/creations",
-              "divisions/solutions",
-              "divisions/gaming"
-            ]
-          },
-          {
-            "group": "Projects",
-            "icon": "blocks",
-            "pages": [
-              "projects/index"
-            ]
-          },
-          {
-            "group": "How We Work",
-            "icon": "workflow",
-            "pages": [
-              "governance/operating-principles"
-            ]
-          },
-          {
-            "group": "Brand & Standards",
-            "icon": "palette",
-            "pages": [
-              "brand/identity",
-              "technology/security-principles"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Changelog",
-        "icon": "list",
-        "groups": [
-          {
-            "group": "Updates",
-            "pages": [
-              "changelog"
-            ]
-          }
+        "group": "Get started",
+        "pages": [
+          "index",
+          "quickstart"
         ]
       }
     ]
-  },
-  "styling": {
-    "eyebrows": "section"
-  },
-  "icons": {
-    "library": "lucide"
   }
 }
