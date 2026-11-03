@@ -1,8 +1,19 @@
 ---
 title: "Changelog"
-description: "Product updates and improvements shipped across Chaotic Minds Collective projects, including The Diagnostic Bay."
+description: "Verified source changes, product updates, and deployment notes across Chaotic Minds Collective projects, including The Diagnostic Bay."
 rss: true
 ---
+
+<Update label="November 3, 2026" tags={["Updates"]}>
+  ## The Diagnostic Bay footer branding
+
+  - **Approved footer tagline**: the footer now uses "WE HELP YOU FIND THE FAULT - OR TEACH YOU TO FIND IT", matching the approved header wording.
+  - The source change merged in [PR #21](https://github.com/Chaotic-Minds-Collective/the-diagnostic-bay/pull/21) on November 3, 2026.
+
+  <Note>
+    This entry records a merged source change, not confirmation that the live site has been redeployed. The auto-deploy workflow change was not included in PR #21; deployment status must be checked separately.
+  </Note>
+</Update>
 
 <Update label="November 2, 2026" tags={["New features", "Updates"]}>
   ## Collective HQ, Chaotic Gaming, and Payments
@@ -10,17 +21,21 @@ rss: true
   ### New features
 
   - **Chaotic Minds Collective corporate site**: the parent-organization website was built and published on GitHub Pages, with per-division badges across all pages.
-  - **Public handbook live**: the docs repo is now served as a hosted documentation site with the changelog visible.
+  - **Public handbook content**: handbook pages and the changelog are maintained in the [documentation repository](https://github.com/Chaotic-Minds-Collective/docs).
 
   ### Updates
 
   - **Chaotic Gaming production deploy confirmed green on Vercel** - the design-v2 rebuild is live at www.chaoticmindsgaming.com, followed by an honesty pass and a branded 404 page.
   - **Chaotic Command billing**: a first recurring price was created in Stripe test mode; test-mode checkout and webhook setup continues.
   - **Supabase**: both free projects (Chaotic-Solutions and Chaotic-Gaming) have auto-paused. Pause is recoverable for 90 days.
+
+  <Note>
+    Publishing check on November 3, 2026: the latest Mintlify deployment record still points to https://chaoticmindscollective.com, which currently serves the corporate website. The current public handbook URL and its live changelog have not been confirmed. A successful deployment record alone does not verify the public documentation endpoint.
+  </Note>
 </Update>
 
 <Update label="November 1, 2026" tags={["New features", "Updates"]}>
-  ## Chaotic Gaming and Chaotic Solutions
+  ## Chaotic Gaming, Chaotic Solutions, and The Diagnostic Bay
 
   ### New features
 
@@ -33,6 +48,12 @@ rss: true
   - **Chaotic Solutions site early launch**: landing page with services and pricing, a portfolio section, and a live Tally contact form wired into the contact section.
   - Added the Chaotic Solutions brand SVG mark and favicon.
   - **Payments**: Stripe business account and Treasury are set up, so Chaotic Minds Collective can now receive funds.
+
+  ### The Diagnostic Bay brand assets
+
+  - Replaced the generic brand mark with the approved skull badge used by the header, favicon reference, and info sections.
+  - Updated the header to "WE HELP YOU FIND THE FAULT - OR TEACH YOU TO FIND IT" and clarified that diagnostic drafts remain under mechanic review.
+  - These source changes merged in [PR #19](https://github.com/Chaotic-Minds-Collective/the-diagnostic-bay/pull/19) on November 1, 2026. This is not confirmation of a live-site relaunch.
 
   <Note>
     Deployment status for the Chaotic Gaming site should be verified on the Vercel dashboard after the latest build trigger.
