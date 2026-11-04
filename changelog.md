@@ -1,65 +1,58 @@
 ---
 title: "Changelog"
 description: "Verified source changes, product updates, and deployment notes across Chaotic Minds Collective projects, including The Grease Dojo."
-rss: true
+layout: "page"
 ---
+# Changelog
 
-<Update label="November 4, 2026" tags={"[""New features"", ""Updates""]"}>
-  ## Chaotic Solutions
+## November 4, 2026
+  ### Chaotic Solutions
 
   - **Standalone inquiry page**: a full-page Tally project inquiry embed now lives at /inquiry, with a least-privilege iframe sandbox ([PR #1](https://github.com/psyryn82/chaotic-solutions-site/pull/1)).
   - **Form height fix**: Tally dynamic height was disabled so the form scrolls inside a fixed frame ([PR #3](https://github.com/psyryn82/chaotic-solutions-site/pull/3)).
 
-  ## Chaotic Command
+  ### Chaotic Command
 
   - **Brand launch**: the homepage was rebuilt with tabbed sections, brand imagery, and real metadata, and the command center was restyled with the brand palette and sticky section tabs ([PR #23](https://github.com/Chaotic-Minds-Collective/Chaotic-Command/pull/23)).
   - **Mobile polish**: fixed an invisible quiet button, made the tab row scrollable, and compacted the phone layout ([PR #24](https://github.com/Chaotic-Minds-Collective/Chaotic-Command/pull/24)).
 
-  ## The Grease Dojo
+  ### The Grease Dojo
 
   - **Case Worksheet, Reference Desk, and Site Notices ported to main**: three unmerged components from the October 30 worksheet branch now live on main - a local-only diagnostic case-notes worksheet with copy and print, curated external references, and draft educational-use, safety, and data-handling notices ([PR #25](https://github.com/Chaotic-Minds-Collective/the-diagnostic-bay/pull/25)).
   - **Docs salvage**: six project documents (legal-review checklist, roadmap, decision log, asset inventory, reference sources, changelog) were preserved from the worksheet branch ([PR #24](https://github.com/Chaotic-Minds-Collective/the-diagnostic-bay/pull/24)).
 
-  <Note>
-    This entry records merged source changes. The Grease Dojo deploys automatically to GitHub Pages on every push to main, but deployment status was not verified. Chaotic Command's Render deployment and the Chaotic Solutions GitHub Pages deploy were also not verified.
-  </Note>
-</Update>
-
-<Update label="November 3, 2026" tags={"[""New features"", ""Updates"", ""Bug fixes""]"}>
-  ## The Grease Dojo (formerly The Diagnostic Bay)
+  > This entry records merged source changes. The Grease Dojo deploys automatically to GitHub Pages on every push to main, but deployment status was not verified. Chaotic Command's Render deployment and the Chaotic Solutions GitHub Pages deploy were also not verified.
+## November 3, 2026
+  ### The Grease Dojo (formerly The Diagnostic Bay)
 
   - **Official brand name**: the venture formerly known as The Diagnostic Bay is now officially **The Grease Dojo**. Spelling confirmed by the owner on November 3, 2026.
   - The mascot and visual identity are unchanged: Don Calavera, with the Colombian-inspired palette.
   - The GitHub repository keeps its `the-diagnostic-bay` name; all new branding, copy, and public-facing pages use The Grease Dojo going forward.
 
-  ## The Grease Dojo footer branding
+  ### The Grease Dojo footer branding
 
   - **Approved footer tagline**: the footer now uses "WE HELP YOU FIND THE FAULT - OR TEACH YOU TO FIND IT", matching the approved header wording.
   - The source change merged in [PR #21](https://github.com/Chaotic-Minds-Collective/the-diagnostic-bay/pull/21) on November 3, 2026.
 
-  ## Collective HQ corporate site
+  ### Collective HQ corporate site
 
   - **Real artwork live**: placeholder SVGs were replaced with optimized PNG artwork, resolving the broken-image issue. Image paths were verified loading correctly on chaoticmindscollective.com on November 3. Source changes merged in [PR #3](https://github.com/Chaotic-Minds-Collective/chaotic-minds-collective/pull/3).
   - **Contact form**: a free-tier Web3Forms contact form was added and then hotfixed with the real access key ([PR #4](https://github.com/Chaotic-Minds-Collective/chaotic-minds-collective/pull/4), [PR #5](https://github.com/Chaotic-Minds-Collective/chaotic-minds-collective/pull/5)).
   - **Accessibility pass**: skip link, main landmark, navigation ARIA labels, and visible focus states were applied across all pages ([PR #6](https://github.com/Chaotic-Minds-Collective/chaotic-minds-collective/pull/6)).
 
-  ## Chaotic Command
+  ### Chaotic Command
 
   - **Discord bot Milestones 1 and 2**: a Discord Gateway background worker landed with structured logging, RESUME handling, a health endpoint, graceful exit, and documented web-versus-bot environment variables. Regression tests were added through CodeRabbit review ([PR #18](https://github.com/Chaotic-Minds-Collective/Chaotic-Command/pull/18)).
   - **Render build fix**: the stale pnpm lockfile was regenerated and pnpm settings were pinned through .npmrc ([PR #20](https://github.com/Chaotic-Minds-Collective/Chaotic-Command/pull/20)).
 
-  ## The Grease Dojo contact page
+  ### The Grease Dojo contact page
 
   - **Live contact form**: a new `#/contact` page now embeds the live "Contact Grease Dojo" Tally form, including fragment-scroll fixes ([PR #23](https://github.com/Chaotic-Minds-Collective/the-diagnostic-bay/pull/23)).
   - **Auto-deploy**: GitHub Pages now deploys automatically on every push to main ([PR #22](https://github.com/Chaotic-Minds-Collective/the-diagnostic-bay/pull/22)).
 
-  <Note>
-    This entry records merged source changes, not verified live deployments. Image loading on chaoticmindscollective.com was verified on November 3; Vercel, GitHub Pages, and Render deployment statuses for Chaotic Gaming, The Grease Dojo, and Chaotic Command still need to be checked on their dashboards.
-  </Note>
-</Update>
-
-<Update label="November 2, 2026" tags={"[""New features"", ""Updates""]"}>
-  ## Collective HQ, Chaotic Gaming, and payments
+  > This entry records merged source changes, not verified live deployments. Image loading on chaoticmindscollective.com was verified on November 3; Vercel, GitHub Pages, and Render deployment statuses for Chaotic Gaming, The Grease Dojo, and Chaotic Command still need to be checked on their dashboards.
+## November 2, 2026
+  ### Collective HQ, Chaotic Gaming, and payments
 
   ### New features
 
@@ -72,13 +65,9 @@ rss: true
   - **Chaotic Command billing**: a first recurring price was created in Stripe test mode; test-mode checkout and webhook setup continues.
   - **`Supabase`**: both free projects (Chaotic-Solutions and Chaotic-Gaming) have auto-paused. Pause is recoverable for 90 days.
 
-  <Note>
-    Publishing check on November 3, 2026: the handbook changelog is reachable at https://chaotic-minds-collective.mintlify.app/changelog. The deployment record still advertises https://chaoticmindscollective.com, which currently serves the corporate website. The custom-domain mapping needs review; use the verified Mintlify URL to reach the handbook.
-  </Note>
-</Update>
-
-<Update label="November 1, 2026" tags={"[""New features"", ""Updates""]"}>
-  ## Chaotic Gaming, Chaotic Solutions, and The Grease Dojo
+  > Publishing check on November 3, 2026: the handbook changelog is reachable at https://chaotic-minds-collective.mintlify.app/changelog. The deployment record still advertises https://chaoticmindscollective.com, which currently serves the corporate website. The custom-domain mapping needs review; use the verified Mintlify URL to reach the handbook.
+## November 1, 2026
+  ### Chaotic Gaming, Chaotic Solutions, and The Grease Dojo
 
   ### New features
 
@@ -98,13 +87,9 @@ rss: true
   - Updated the header to "WE HELP YOU FIND THE FAULT - OR TEACH YOU TO FIND IT" and clarified that diagnostic drafts remain under mechanic review.
   - These source changes merged in [PR #19](https://github.com/Chaotic-Minds-Collective/the-diagnostic-bay/pull/19) on November 1, 2026. This is not confirmation of a live-site relaunch.
 
-  <Note>
-    Deployment status for the Chaotic Gaming site should be verified on the `Vercel` dashboard after the latest build trigger.
-  </Note>
-</Update>
-
-<Update label="October 30, 2026" tags={"[""New features"", ""Updates"", ""Bug fixes""]"}>
-  ## The Grease Dojo
+  > Deployment status for the Chaotic Gaming site should be verified on the `Vercel` dashboard after the latest build trigger.
+## October 30, 2026
+  ### The Grease Dojo
 
   The Grease Dojo (then working under the project name "The Diagnostic Bay") is a new educational resource for automotive diagnosis and repair.
 
@@ -129,7 +114,4 @@ rss: true
   - Fixed the logo and favicon not loading on the hosted site.
   - Fixed the Guided Intake link missing from the navigation on the hosted site.
 
-  <Note>
-    All diagnostic content is educational and still in draft. A trouble code is evidence, not proof that a part has failed. Always follow vehicle-specific service information.
-  </Note>
-</Update>
+  > All diagnostic content is educational and still in draft. A trouble code is evidence, not proof that a part has failed. Always follow vehicle-specific service information.

@@ -1,0 +1,16 @@
+title: Chaotic Minds Collective
+description: The public handbook for Chaotic Minds Collective, its divisions, projects, shared identity, and operating principles.
+theme: minima
+
+minima:
+  skin: dark
+
+header_pages:
+  - index.md
+  - about/index.md
+  - divisions/index.md
+  - projects/index.md
+  - governance/operating-principles.md
+  - brand/identity.md
+  - technology/security-principles.md
+  - changelog.md

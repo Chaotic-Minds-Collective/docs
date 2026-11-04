@@ -1,8 +1,8 @@
 ---
 title: "Technology and security principles"
 description: "Review the security, privacy, maintenance, and technical quality principles that guide technology work across the Collective."
+layout: "page"
 ---
-
 # Technology and security principles
 
 Technology supports the work of Chaotic Minds Collective, but tools and infrastructure should serve a clear purpose. Technical decisions should account for security, privacy, cost, reliability, and the ability to maintain what is built.

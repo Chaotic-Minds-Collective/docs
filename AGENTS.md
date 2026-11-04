@@ -25,7 +25,7 @@ Do not treat an idea as an approved product, business, division, or release unle
 - Distinguish verified facts, proposals, assumptions, and unknowns.
 - Do not invent staff, departments, benefits, compensation, service guarantees, features, launch dates, or policies.
 - Do not use em dashes or en dashes as punctuation in new content.
-- Use Mintlify components where they improve navigation or comprehension.
+- Write plain markdown only. No MDX and no custom components. Use front matter (title, description, layout: page), headings, lists, links, and > blockquotes for notes.
 
 ## Public content boundaries
 
@@ -44,6 +44,12 @@ Clearly distinguish proposed, approved, implemented, tested, and deployed work. 
 Use the shared family identity: black, charcoal, and electric cyan or turquoise. Original skull, circuitry, and technology motifs may be used where appropriate. Divisions can have distinct emblems and supporting accents while retaining a coherent parent-brand connection.
 
 Use original or properly licensed assets. Do not assume names, logos, fonts, slogans, or artwork are legally cleared.
+
+## Site and deployment
+
+The handbook is plain markdown rendered by Jekyll (minima theme, dark skin) on GitHub Pages. Every push to `main` deploys automatically. There is no Mintlify, no MDX, and no external documentation service.
+
+Page conventions: every page has front matter (title, description, layout: page); internal links use page URLs (`/divisions/solutions.html`, `/about/`); changelog entries use `## <date>`, `### <project>` sections, and `>` blockquote notes.
 
 ## Quality checks
 

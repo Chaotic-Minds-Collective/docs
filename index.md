@@ -1,42 +1,24 @@
 ---
 title: "Chaotic Minds Collective"
 description: "Explore the organization, its three divisions, active areas of work, shared identity, and the principles behind Chaotic Minds Collective."
+layout: "page"
 ---
-
 # Welcome to Chaotic Minds Collective
 
 **A home for unconventional ideas, practical solutions, and communities built with purpose.**
 
 Chaotic Minds Collective brings together creative work, technical services, and gaming communities under one shared identity. Each division has its own focus. Together, they make room for ideas to become useful projects, services, and experiences.
 
-<Columns cols={3}>
-  <Card title="Chaotic Creations" icon="lightbulb" href="/divisions/creations">
-    The creative home for ideas, projects, experiments, and future ventures.
-  </Card>
-  <Card title="Chaotic Solutions" icon="settings" href="/divisions/solutions">
-    Website development, IT support, security reviews, maintenance, and documentation.
-  </Card>
-  <Card title="Chaotic Gaming" icon="gamepad-2" href="/divisions/gaming">
-    Gaming communities, multiplayer servers, websites, tools, and shared experiences.
-  </Card>
-</Columns>
+- **[Chaotic Creations](/divisions/creations.html)** - The creative home for ideas, projects, experiments, and future ventures.
+- **[Chaotic Solutions](/divisions/solutions.html)** - Website development, IT support, security reviews, maintenance, and documentation.
+- **[Chaotic Gaming](/divisions/gaming.html)** - Gaming communities, multiplayer servers, websites, tools, and shared experiences.
 
 ## Start here
 
-<CardGroup cols={2}>
-  <Card title="About the Collective" icon="network" href="/about">
-    Learn where the organization came from, what connects its divisions, and what guides the work.
-  </Card>
-  <Card title="Projects and ventures" icon="blocks" href="/projects">
-    Explore selected work and understand the difference between an idea, an active project, and a release.
-  </Card>
-  <Card title="How we work" icon="workflow" href="/governance/operating-principles">
-    Understand ownership, approvals, project status, and accountability.
-  </Card>
-  <Card title="Brand identity" icon="palette" href="/brand/identity">
-    Discover the shared visual direction and how each division expresses it.
-  </Card>
-</CardGroup>
+- **[About the Collective](/about/)** - Learn where the organization came from, what connects its divisions, and what guides the work.
+- **[Projects and ventures](/projects/)** - Explore selected work and understand the difference between an idea, an active project, and a release.
+- **[How we work](/governance/operating-principles.html)** - Understand ownership, approvals, project status, and accountability.
+- **[Brand identity](/brand/identity.html)** - Discover the shared visual direction and how each division expresses it.
 
 ## One identity, room for individuality
 

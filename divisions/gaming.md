@@ -1,11 +1,11 @@
 ---
 title: "Chaotic Gaming"
 description: "Meet Chaotic Gaming, the community-focused division for gaming groups, multiplayer servers, websites, tools, and shared experiences."
+layout: "page"
 ---
-
 # Chaotic Gaming
 
-<Note>**For Gamers, By Gamers.**</Note>
+> **For Gamers, By Gamers.**
 
 **Chaotic Gaming** grew from the experience of people who wanted a gaming community where they felt welcome, heard, and able to build something together.
 

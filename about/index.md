@@ -1,8 +1,8 @@
 ---
 title: "About the Collective"
 description: "Learn why Chaotic Minds Collective exists, what brings its divisions together, and the principles behind the organization."
+layout: "page"
 ---
-
 # About Chaotic Minds Collective
 
 Chaotic Minds Collective is the parent organization bringing together distinct creative, technical, and gaming ventures. It gives those ventures a shared identity and a common foundation while allowing each division to develop its own purpose, audience, and work.
@@ -11,7 +11,7 @@ The Collective is built around a simple idea: unconventional thinking can produc
 
 ## Where it began
 
-The roots of Chaotic Minds trace back to a group of friends who met through another gaming community. They did not feel heard or at home in that environment, so they chose to build a community of their own. That experience helped shape the organization’s emphasis on belonging, practical collaboration, and making room for people who do not fit a conventional mold.
+The roots of Chaotic Minds trace back to a group of friends who met through another gaming community. They did not feel heard or at home in that environment, so they chose to build a community of their own. That experience helped shape the organization's emphasis on belonging, practical collaboration, and making room for people who do not fit a conventional mold.
 
 The organization has since grown beyond gaming into a broader home for technical services, creative work, experiments, and future ventures.
 

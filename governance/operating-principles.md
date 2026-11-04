@@ -1,8 +1,8 @@
 ---
 title: "Operating principles"
 description: "Learn the decision-making, project-control, approval, and accountability principles that guide Chaotic Minds Collective."
+layout: "page"
 ---
-
 # Operating principles
 
 Chaotic Minds Collective aims to keep creative freedom and practical accountability in balance. These principles describe how work is planned and controlled across the organization.

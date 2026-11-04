@@ -1,11 +1,11 @@
 ---
 title: "Chaotic Solutions"
 description: "Explore Chaotic Solutions, the technical services division for websites, IT support, security reviews, maintenance, and documentation."
+layout: "page"
 ---
-
 # Chaotic Solutions
 
-<Note>**The Method to Your Madness.**</Note>
+> **The Method to Your Madness.**
 
 **Chaotic Solutions** is the technical services division of Chaotic Minds Collective. Its focus is turning complicated or disorganized technical needs into workable, maintainable solutions.
 

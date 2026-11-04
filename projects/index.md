@@ -1,8 +1,8 @@
 ---
 title: "Projects and ventures"
 description: "Understand how projects fit within Chaotic Minds Collective and find context for selected products, experiments, and independent ventures."
+layout: "page"
 ---
-
 # Projects and ventures
 
 Chaotic Minds Collective supports work at different stages, from early ideas to active development and released offerings. A project name or concept appearing here does not, by itself, mean that it is approved, launched, or available to the public.

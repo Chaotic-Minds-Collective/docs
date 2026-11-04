@@ -1,8 +1,8 @@
 ---
 title: "Chaotic Creations"
 description: "Discover the creative division of Chaotic Minds Collective, a home for original ideas, experiments, projects, and future ventures."
+layout: "page"
 ---
-
 # Chaotic Creations
 
 **Chaotic Creations** is the creative home of Chaotic Minds Collective. It exists to give original ideas room to develop, whether they become standalone projects, digital products, experiments, intellectual property, or future ventures.

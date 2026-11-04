@@ -1,23 +1,15 @@
 ---
 title: "Our divisions"
 description: "Explore the three divisions of Chaotic Minds Collective and understand how their distinct purposes fit within one organization."
+layout: "page"
 ---
-
 # Three divisions. One collective.
 
 Chaotic Minds Collective is organized around three distinct divisions. Each has a clear area of focus, while sharing the parent organization's identity and operating principles.
 
-<Columns cols={3}>
-  <Card title="Chaotic Creations" icon="lightbulb" href="/divisions/creations">
-    The creative home for ideas, projects, experiments, and future ventures.
-  </Card>
-  <Card title="Chaotic Solutions" icon="settings" href="/divisions/solutions">
-    Website development, technical services, support, security reviews, and documentation.
-  </Card>
-  <Card title="Chaotic Gaming" icon="gamepad-2" href="/divisions/gaming">
-    Gaming communities, multiplayer servers, websites, tools, and community experiences.
-  </Card>
-</Columns>
+- **[Chaotic Creations](/divisions/creations.html)** - The creative home for ideas, projects, experiments, and future ventures.
+- **[Chaotic Solutions](/divisions/solutions.html)** - Website development, technical services, support, security reviews, and documentation.
+- **[Chaotic Gaming](/divisions/gaming.html)** - Gaming communities, multiplayer servers, websites, tools, and community experiences.
 
 ## How the divisions relate
 

@@ -1,8 +1,8 @@
 ---
 title: "Brand identity"
 description: "Explore the shared visual identity, design principles, and division-level expression of Chaotic Minds Collective."
+layout: "page"
 ---
-
 # Brand identity
 
 Chaotic Minds Collective uses a recognizable family identity across its parent organization and divisions. The visual direction is unconventional, creative, dark, technical, and commercially credible.
