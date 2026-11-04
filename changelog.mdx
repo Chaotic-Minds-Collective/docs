@@ -4,14 +4,30 @@ description: "Verified source changes, product updates, and deployment notes acr
 rss: true
 ---
 
-<Update label="November 3, 2026" tags={["Updates"]}>
+<Update label="November 3, 2026" tags={["New features", "Updates", "Bug fixes"]}>
   ## The Diagnostic Bay footer branding
 
   - **Approved footer tagline**: the footer now uses "WE HELP YOU FIND THE FAULT - OR TEACH YOU TO FIND IT", matching the approved header wording.
   - The source change merged in [PR #21](https://github.com/Chaotic-Minds-Collective/the-diagnostic-bay/pull/21) on November 3, 2026.
 
+  ## Collective HQ corporate site
+
+  - **Real artwork live**: placeholder SVGs were replaced with optimized PNG artwork, resolving the broken-image issue. Image paths were verified loading correctly on chaoticmindscollective.com on November 3. Source changes merged in [PR #3](https://github.com/Chaotic-Minds-Collective/chaotic-minds-collective/pull/3).
+  - **Contact form**: a free-tier Web3Forms contact form was added and then hotfixed with the real access key ([PR #4](https://github.com/Chaotic-Minds-Collective/chaotic-minds-collective/pull/4), [PR #5](https://github.com/Chaotic-Minds-Collective/chaotic-minds-collective/pull/5)).
+  - **Accessibility pass**: skip link, main landmark, navigation ARIA labels, and visible focus states were applied across all pages ([PR #6](https://github.com/Chaotic-Minds-Collective/chaotic-minds-collective/pull/6)).
+
+  ## Chaotic Command
+
+  - **Discord bot Milestones 1 and 2**: a Discord Gateway background worker landed with structured logging, RESUME handling, a health endpoint, graceful exit, and documented web-versus-bot environment variables. Regression tests were added through CodeRabbit review ([PR #18](https://github.com/Chaotic-Minds-Collective/Chaotic-Command/pull/18)).
+  - **Render build fix**: the stale pnpm lockfile was regenerated and pnpm settings were pinned through .npmrc ([PR #20](https://github.com/Chaotic-Minds-Collective/Chaotic-Command/pull/20)).
+
+  ## The Diagnostic Bay contact page
+
+  - **Live contact form**: a new `#/contact` page now embeds the live "Contact Grease Dojo" Tally form, including fragment-scroll fixes ([PR #23](https://github.com/Chaotic-Minds-Collective/the-diagnostic-bay/pull/23)).
+  - **Auto-deploy**: GitHub Pages now deploys automatically on every push to main ([PR #22](https://github.com/Chaotic-Minds-Collective/the-diagnostic-bay/pull/22)).
+
   <Note>
-    This entry records a merged source change, not confirmation that the live site has been redeployed. The auto-deploy workflow change was not included in PR #21; deployment status must be checked separately.
+    This entry records merged source changes, not verified live deployments. Image loading on chaoticmindscollective.com was verified on November 3; Vercel, GitHub Pages, and Render deployment statuses for Chaotic Gaming, The Diagnostic Bay, and Chaotic Command still need to be checked on their dashboards.
   </Note>
 </Update>
 
