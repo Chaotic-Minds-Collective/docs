@@ -5,6 +5,19 @@ layout: "page"
 ---
 # Changelog
 
+## November 5, 2026
+  ### Chaotic Solutions
+
+  - **Repository moved to the organization**: the site repo now lives at Chaotic-Minds-Collective/chaotic-solutions-site (transferred from psyryn82), completing the GitHub migration for this site.
+  - **Cloudflare migration prep**: static export was enabled for Cloudflare Pages (`output: export` with unoptimized images, [PR #4](https://github.com/Chaotic-Minds-Collective/chaotic-solutions-site/pull/4)), and a wrangler static-assets config was added for the Cloudflare deploy ([PR #5](https://github.com/Chaotic-Minds-Collective/chaotic-solutions-site/pull/5)).
+  - **Vercel deployment failing**: Vercel reported on the evening of November 4 that Hobby plan deployments cannot build from private organization repositories. This is expected fallout of the org migration, not a code failure; the move to Cloudflare Pages resolves it. No live Cloudflare deployment verified yet.
+
+  ### Collective HQ automation
+
+  - **Automation fixes round 2 merged**: review findings on the org workflow automator were fixed (workflow permissions scoping, monitor report hardening, onboarding edge cases) and the registry entry was corrected to the new Solutions repo name ([PR #2](https://github.com/Chaotic-Minds-Collective/.github/pull/2), merged the evening of November 4). The org workflow system is fully live.
+
+  > This entry records merged source changes. No Cloudflare Pages or Render deployment was verified at publish time.
+
 ## November 4, 2026
   ### Collective HQ handbook
 
@@ -42,6 +55,7 @@ layout: "page"
   - **Docs salvage**: six project documents (legal-review checklist, roadmap, decision log, asset inventory, reference sources, changelog) were preserved from the worksheet branch ([PR #24](https://github.com/Chaotic-Minds-Collective/the-diagnostic-bay/pull/24)).
 
   > This entry records merged source changes. The handbook's GitHub Pages site was verified live on the evening of November 4. The Grease Dojo's Pages deploy, Chaotic Command's Render deploy, and the Chaotic Solutions site's deploy were still not verified at publish time.
+
 ## November 3, 2026
   ### The Grease Dojo (formerly The Diagnostic Bay)
 
@@ -71,6 +85,7 @@ layout: "page"
   - **Auto-deploy**: GitHub Pages now deploys automatically on every push to main ([PR #22](https://github.com/Chaotic-Minds-Collective/the-diagnostic-bay/pull/22)).
 
   > This entry records merged source changes, not verified live deployments. Image loading on chaoticmindscollective.com was verified on November 3; Vercel, GitHub Pages, and Render deployment statuses for Chaotic Gaming, The Grease Dojo, and Chaotic Command still need to be checked on their dashboards.
+
 ## November 2, 2026
   ### Collective HQ, Chaotic Gaming, and payments
 
@@ -86,6 +101,7 @@ layout: "page"
   - **`Supabase`**: both free projects (Chaotic-Solutions and Chaotic-Gaming) have auto-paused. Pause is recoverable for 90 days.
 
   > Publishing check on November 3, 2026: the handbook changelog is reachable at https://chaotic-minds-collective.mintlify.app/changelog. The deployment record still advertises https://chaoticmindscollective.com, which currently serves the corporate website. The custom-domain mapping needs review; use the verified Mintlify URL to reach the handbook.
+
 ## November 1, 2026
   ### Chaotic Gaming, Chaotic Solutions, and The Grease Dojo
 
@@ -108,6 +124,7 @@ layout: "page"
   - These source changes merged in [PR #19](https://github.com/Chaotic-Minds-Collective/the-diagnostic-bay/pull/19) on November 1, 2026. This is not confirmation of a live-site relaunch.
 
   > Deployment status for the Chaotic Gaming site should be verified on the `Vercel` dashboard after the latest build trigger.
+
 ## October 30, 2026
   ### The Grease Dojo
 
