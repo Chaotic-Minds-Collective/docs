@@ -6,22 +6,42 @@ layout: "page"
 # Changelog
 
 ## November 4, 2026
+  ### Collective HQ handbook
+
+  - **Handbook migration, Phase 2**: the handbook left Mintlify and became a plain-markdown GitHub Pages site. All 11 MDX sources were converted to markdown with content text unchanged, the Mintlify configuration was removed, and a Jekyll minima dark theme was added ([PR #7](https://github.com/Chaotic-Minds-Collective/docs/pull/7)).
+  - **Brand styling**: electric-turquoise accents were layered over the minima dark skin ([PR #8](https://github.com/Chaotic-Minds-Collective/docs/pull/8)), then replaced with a real site-level stylesheet, a /docs baseurl, and relative content links so navigation URLs resolve on the project site ([PR #9](https://github.com/Chaotic-Minds-Collective/docs/pull/9)).
+  - **Live and verified**: the handbook serves at https://chaotic-minds-collective.github.io/docs/ and was verified loading on the evening of November 4. Phase 3 (disconnecting the Mintlify app) is pending owner approval.
+
+  ### Chaotic Command
+
+  - **Discord OAuth fixed**: server-side Discord API calls now send a User-Agent header, resolving the Cloudflare 1015 block on the token exchange ([PR #27](https://github.com/Chaotic-Minds-Collective/Chaotic-Command/pull/27)). Failure-body logging for diagnosis landed first ([PR #26](https://github.com/Chaotic-Minds-Collective/Chaotic-Command/pull/26)).
+  - **Discord bot gateway docs**: a gateway guide and docs index were added as Phase 1 of the docs migration ([PR #25](https://github.com/Chaotic-Minds-Collective/Chaotic-Command/pull/25)).
+
+  ### Chaotic Gaming
+
+  - **CI build fix**: the default Node-with-Webpack workflow was replaced with `npm run build` for the Next.js app, ending the failing check that ran on every commit ([PR #5](https://github.com/Chaotic-Minds-Collective/Chaotic-Gaming/pull/5)).
+  - **README expansion**: site routes, key data files, brand-asset caveats, and deployment notes were documented as Phase 1 of the docs migration ([PR #4](https://github.com/Chaotic-Minds-Collective/Chaotic-Gaming/pull/4)). CodeQL, PR labeler, issue summarizer, and stale-issue workflows were added.
+
+  ### The Grease Dojo
+
+  - **Accent cleanup**: hardcoded teal accents in the ported Case Worksheet, Reference Desk, and Site Notices stylesheets were recolored to the approved fire orange, hex swaps only ([PR #26](https://github.com/Chaotic-Minds-Collective/the-diagnostic-bay/pull/26)).
+
   ### Chaotic Solutions
 
   - **Standalone inquiry page**: a full-page Tally project inquiry embed now lives at /inquiry, with a least-privilege iframe sandbox ([PR #1](https://github.com/psyryn82/chaotic-solutions-site/pull/1)).
   - **Form height fix**: Tally dynamic height was disabled so the form scrolls inside a fixed frame ([PR #3](https://github.com/psyryn82/chaotic-solutions-site/pull/3)).
 
-  ### Chaotic Command
+  ### Chaotic Command (earlier today)
 
   - **Brand launch**: the homepage was rebuilt with tabbed sections, brand imagery, and real metadata, and the command center was restyled with the brand palette and sticky section tabs ([PR #23](https://github.com/Chaotic-Minds-Collective/Chaotic-Command/pull/23)).
   - **Mobile polish**: fixed an invisible quiet button, made the tab row scrollable, and compacted the phone layout ([PR #24](https://github.com/Chaotic-Minds-Collective/Chaotic-Command/pull/24)).
 
-  ### The Grease Dojo
+  ### The Grease Dojo (earlier today)
 
   - **Case Worksheet, Reference Desk, and Site Notices ported to main**: three unmerged components from the October 30 worksheet branch now live on main - a local-only diagnostic case-notes worksheet with copy and print, curated external references, and draft educational-use, safety, and data-handling notices ([PR #25](https://github.com/Chaotic-Minds-Collective/the-diagnostic-bay/pull/25)).
   - **Docs salvage**: six project documents (legal-review checklist, roadmap, decision log, asset inventory, reference sources, changelog) were preserved from the worksheet branch ([PR #24](https://github.com/Chaotic-Minds-Collective/the-diagnostic-bay/pull/24)).
 
-  > This entry records merged source changes. The Grease Dojo deploys automatically to GitHub Pages on every push to main, but deployment status was not verified. Chaotic Command's Render deployment and the Chaotic Solutions GitHub Pages deploy were also not verified.
+  > This entry records merged source changes. The handbook's GitHub Pages site was verified live on the evening of November 4. The Grease Dojo's Pages deploy, Chaotic Command's Render deploy, and the Chaotic Solutions site's deploy were still not verified at publish time.
 ## November 3, 2026
   ### The Grease Dojo (formerly The Diagnostic Bay)
 
