@@ -9,16 +9,16 @@ layout: "page"
 
 Chaotic Minds Collective brings together creative work, technical services, and gaming communities under one shared identity. Each division has its own focus. Together, they make room for ideas to become useful projects, services, and experiences.
 
-- **[Chaotic Creations](/divisions/creations.html)** - The creative home for ideas, projects, experiments, and future ventures.
-- **[Chaotic Solutions](/divisions/solutions.html)** - Website development, IT support, security reviews, maintenance, and documentation.
-- **[Chaotic Gaming](/divisions/gaming.html)** - Gaming communities, multiplayer servers, websites, tools, and shared experiences.
+- **[Chaotic Creations](divisions/creations.html)** - The creative home for ideas, projects, experiments, and future ventures.
+- **[Chaotic Solutions](divisions/solutions.html)** - Website development, IT support, security reviews, maintenance, and documentation.
+- **[Chaotic Gaming](divisions/gaming.html)** - Gaming communities, multiplayer servers, websites, tools, and shared experiences.
 
 ## Start here
 
-- **[About the Collective](/about/)** - Learn where the organization came from, what connects its divisions, and what guides the work.
-- **[Projects and ventures](/projects/)** - Explore selected work and understand the difference between an idea, an active project, and a release.
-- **[How we work](/governance/operating-principles.html)** - Understand ownership, approvals, project status, and accountability.
-- **[Brand identity](/brand/identity.html)** - Discover the shared visual direction and how each division expresses it.
+- **[About the Collective](about/)** - Learn where the organization came from, what connects its divisions, and what guides the work.
+- **[Projects and ventures](projects/)** - Explore selected work and understand the difference between an idea, an active project, and a release.
+- **[How we work](governance/operating-principles.html)** - Understand ownership, approvals, project status, and accountability.
+- **[Brand identity](brand/identity.html)** - Discover the shared visual direction and how each division expresses it.
 
 ## One identity, room for individuality
 

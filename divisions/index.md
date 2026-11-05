@@ -7,9 +7,9 @@ layout: "page"
 
 Chaotic Minds Collective is organized around three distinct divisions. Each has a clear area of focus, while sharing the parent organization's identity and operating principles.
 
-- **[Chaotic Creations](/divisions/creations.html)** - The creative home for ideas, projects, experiments, and future ventures.
-- **[Chaotic Solutions](/divisions/solutions.html)** - Website development, technical services, support, security reviews, and documentation.
-- **[Chaotic Gaming](/divisions/gaming.html)** - Gaming communities, multiplayer servers, websites, tools, and community experiences.
+- **[Chaotic Creations](creations.html)** - The creative home for ideas, projects, experiments, and future ventures.
+- **[Chaotic Solutions](solutions.html)** - Website development, technical services, support, security reviews, and documentation.
+- **[Chaotic Gaming](gaming.html)** - Gaming communities, multiplayer servers, websites, tools, and community experiences.
 
 ## How the divisions relate
 

@@ -1,0 +1,37 @@
+---
+# Site-level stylesheet: overrides the theme's assets/main.scss.
+# Minima v2.5.2 (GitHub Pages) has no skin system, so the brand look is
+# applied by defining the theme's Sass variables BEFORE the import -
+# they win over the theme's !default assignments - plus a few plain-CSS
+# accents appended after it.
+---
+
+$text-color: #d5dbe3;
+$background-color: #0b0d10;
+$brand-color: #02fadb;
+$grey-color: #7a8592;
+$grey-color-light: #1c2128;
+$grey-color-dark: #aab4be;
+
+@import "minima";
+
+/* --- Brand accents on top of the themed output --- */
+
+a:hover {
+  color: #5affef;
+}
+
+blockquote {
+  border-left: 4px solid #02fadb;
+  background-color: #10141a;
+  border-radius: 0 4px 4px 0;
+  padding: 8px 16px;
+}
+
+.site-header {
+  border-top-color: #02fadb;
+}
+
+::selection {
+  background-color: rgba(2, 250, 219, 0.25);
+}
