@@ -1,0 +1,75 @@
+/* Brand overrides for the minima dark skin.
+   Loaded last via minima's custom-styles hook, so these are direct
+   CSS overrides on top of the theme output.
+   Brand: black/charcoal foundation, electric turquoise accent (#02FADB). */
+
+body {
+  background-color: #0b0d10;
+  color: #d5dbe3;
+}
+
+a {
+  color: #02fadb;
+}
+
+a:visited {
+  color: #6fe3d2;
+}
+
+a:hover {
+  color: #5affef;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #f2f5f7;
+}
+
+.site-header {
+  border-top: 4px solid #02fadb;
+  border-bottom: 1px solid #1c2128;
+}
+
+.site-title,
+.site-title:visited {
+  color: #f2f5f7;
+}
+
+.site-nav .page-link {
+  color: #d5dbe3;
+}
+
+.site-footer {
+  border-top: 1px solid #1c2128;
+  color: #7a8592;
+}
+
+blockquote {
+  border-left: 4px solid #02fadb;
+  color: #b8c2cc;
+  background-color: #10141a;
+  border-radius: 0 4px 4px 0;
+  padding: 8px 16px;
+}
+
+code,
+pre {
+  background-color: #10141a;
+  color: #aef7ec;
+}
+
+table th,
+table td {
+  border-bottom: 1px solid #1c2128;
+}
+
+table th {
+  color: #f2f5f7;
+}
+
+::selection {
+  background-color: rgba(2, 250, 219, 0.25);
+}
+
+.post-meta {
+  color: #7a8592;
+}
