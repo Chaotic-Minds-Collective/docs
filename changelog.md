@@ -10,13 +10,48 @@ layout: "page"
 
   - **Repository moved to the organization**: the site repo now lives at Chaotic-Minds-Collective/chaotic-solutions-site (transferred from psyryn82), completing the GitHub migration for this site.
   - **Cloudflare migration prep**: static export was enabled for Cloudflare Pages (`output: export` with unoptimized images, [PR #4](https://github.com/Chaotic-Minds-Collective/chaotic-solutions-site/pull/4)), and a wrangler static-assets config was added for the Cloudflare deploy ([PR #5](https://github.com/Chaotic-Minds-Collective/chaotic-solutions-site/pull/5)).
-  - **Vercel deployment failing**: Vercel reported on the evening of November 4 that Hobby plan deployments cannot build from private organization repositories. This is expected fallout of the org migration, not a code failure; the move to Cloudflare Pages resolves it. No live Cloudflare deployment verified yet.
+  - **Vercel deployment failing**: Vercel reported on the evening of November 4 that Hobby plan deployments cannot build from private organization repositories. This is expected fallout of the org migration, not a code failure; the move to Cloudflare resolves it.
 
   ### Collective HQ automation
 
   - **Automation fixes round 2 merged**: review findings on the org workflow automator were fixed (workflow permissions scoping, monitor report hardening, onboarding edge cases) and the registry entry was corrected to the new Solutions repo name ([PR #2](https://github.com/Chaotic-Minds-Collective/.github/pull/2), merged the evening of November 4). The org workflow system is fully live.
 
-  > This entry records merged source changes. No Cloudflare Pages or Render deployment was verified at publish time.
+  ### Chaotic Solutions (evening)
+
+  - **Shared org CI onboarded**: the shared org CI workflow plus a trusted failure-notification workflow were added to the repo ([PR #6](https://github.com/Chaotic-Minds-Collective/chaotic-solutions-site/pull/6)).
+  - **Brand assets**: favicon set, badge/emblem/icon assets, hero and OG banners, and metadata wiring ([PR #7](https://github.com/Chaotic-Minds-Collective/chaotic-solutions-site/pull/7)).
+  - **Docs refresh**: README, decision log, and contact-form docs updated for the Cloudflare Workers + Supabase inquiry pipeline ([PR #8](https://github.com/Chaotic-Minds-Collective/chaotic-solutions-site/pull/8)).
+  - **Mobile hero fix**: killed the blank hero void on phones, swapped the wrong Greasy Dojo logo for the approved Solutions emblem, and referenced the hero banner that had never been used ([PR #9](https://github.com/Chaotic-Minds-Collective/chaotic-solutions-site/pull/9)).
+  - **Wrangler fix**: an empty previews block unblocked wrangler 4.158 preview deploys ([PR #10](https://github.com/Chaotic-Minds-Collective/chaotic-solutions-site/pull/10)).
+  - **Multi-page redesign**: palette sampled from the official banner art (electric blue #2e7dff, cyan spark #18f0f0, deep navy panels), split into Home / Pricing / Contact pages with sticky nav, gothic Pirata One headings, and the Tally form on /contact ([PR #11](https://github.com/Chaotic-Minds-Collective/chaotic-solutions-site/pull/11)).
+  - **Live on Cloudflare**: the chaotic-solutions-site Worker was updated right after the redesign merge and is deployed.
+
+  ### Chaotic Command (evening)
+
+  - **Brand assets and share previews**: favicon, brand icons, and og-image assets were added, and the OG image is now served through a public static route ([PR #30](https://github.com/Chaotic-Minds-Collective/chaotic-command/pull/30), [PR #31](https://github.com/Chaotic-Minds-Collective/chaotic-command/pull/31), [PR #33](https://github.com/Chaotic-Minds-Collective/chaotic-command/pull/33)).
+  - **Database layer recovered**: the dual-driver db layer lost from main was restored, with atomic serialized migrations, remote PostgreSQL TLS verification, runtime dependencies in CI, and adapter/migration documentation ([PR #32](https://github.com/Chaotic-Minds-Collective/chaotic-command/pull/32)).
+  - **Palette match and footer stamp**: the site palette was matched to the brand art (neon green with subtle purple accents) and a ring-badge stamp was added to the footer ([PR #34](https://github.com/Chaotic-Minds-Collective/chaotic-command/pull/34), [PR #35](https://github.com/Chaotic-Minds-Collective/chaotic-command/pull/35)).
+  - **Render deploy verified live**: the latest deploy (footer stamp) finished at 7:31 PM PST on November 5 and is serving.
+
+  ### Chaotic Gaming (evening)
+
+  - **Glitch brand assets**: badge, banner, lockup, and icon assets were added under public/ ([PR #8](https://github.com/Chaotic-Minds-Collective/chaotic-gaming/pull/8)).
+  - **CI workflow rename**: webpack.yml became node-build.yml to match the Next.js build ([PR #9](https://github.com/Chaotic-Minds-Collective/chaotic-gaming/pull/9)).
+  - **Social share previews**: openGraph and twitter metadata now use the Glitch banner ([PR #10](https://github.com/Chaotic-Minds-Collective/chaotic-gaming/pull/10)).
+  - **Render deploy verified live**: the latest deploy (share previews) finished at 5:54 PM PST on November 5 and is serving.
+
+  ### The Grease Dojo (evening)
+
+  - **Supabase security remediation staged**: findings were re-verified live on November 5 (over-broad grants including TRUNCATE for anon and authenticated roles, RLS enabled but not forced, public profile SELECT exposing email and role, a self-updatable role column, and a stale shared-cases public policy). A least-privilege migration plus a full rollback plan is staged and awaiting owner approval - nothing has run against the database ([PR #27](https://github.com/Chaotic-Minds-Collective/grease-dojo/pull/27)).
+  - **Brand assets wired**: the page and og:title were retitled to Greasy Dojo, favicon and OG image links were added, and asset paths were corrected to public/assets where the files live ([PR #28](https://github.com/Chaotic-Minds-Collective/grease-dojo/pull/28), [PR #29](https://github.com/Chaotic-Minds-Collective/grease-dojo/pull/29)).
+  - **Final teal recolor**: the last hardcoded teal remnants (triage kicker, triage choices, and hero portrait frame) moved to fire orange ([PR #30](https://github.com/Chaotic-Minds-Collective/grease-dojo/pull/30)).
+  - **Repository renamed**: the repo is now Chaotic-Minds-Collective/grease-dojo (was the-diagnostic-bay). Org automation targeting, repo descriptions, and the profile README were updated to match ([PR #8](https://github.com/Chaotic-Minds-Collective/.github/pull/8)).
+
+  ### Collective HQ corporate site
+
+  - **Phase 5 audit fixes**: Greasy Dojo rename applied across the site, Jojoa wording, root canonical tag, alt text, contact heading hierarchy, and nav order matching the homepage cards ([PR #7](https://github.com/Chaotic-Minds-Collective/chaotic-minds-collective/pull/7)).
+
+  > Deployment verification, November 5 evening: Chaotic Solutions is live on Cloudflare Workers, and the latest Render deploys for Chaotic Command and Chaotic Gaming are live. The Grease Dojo GitHub Pages site and the corporate site's Pages deploy were not re-verified at publish time. Still zero Tally customer responses since the forms launched.
 
 ## November 4, 2026
   ### Collective HQ handbook
@@ -61,7 +96,7 @@ layout: "page"
 
   - **Official brand name**: the venture formerly known as The Diagnostic Bay is now officially **The Grease Dojo**. Spelling confirmed by the owner on November 3, 2026.
   - The mascot and visual identity are unchanged: Don Calavera, with the Colombian-inspired palette.
-  - The GitHub repository keeps its `the-diagnostic-bay` name; all new branding, copy, and public-facing pages use The Grease Dojo going forward.
+  - The GitHub repository kept its `the-diagnostic-bay` name through November 4; it was renamed to `grease-dojo` on November 5, and all new branding, copy, and public-facing pages use The Grease Dojo.
 
   ### The Grease Dojo footer branding
 
