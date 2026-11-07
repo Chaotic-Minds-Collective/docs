@@ -5,6 +5,40 @@ layout: "page"
 ---
 # Changelog
 
+## November 6, 2026
+  ### Chaotic Solutions
+
+  - **Own inquiry form replaced the Tally embed**: /contact now renders a brand-styled InquiryForm (name, email, service, budget, message) that submits directly to the Supabase inquiries table using the publishable key, protected by an insert-only RLS policy with field limits and email validation, plus a honeypot bot trap and per-field accessible inline validation. The Tally iframe was removed ([PR #13](https://github.com/Chaotic-Minds-Collective/chaotic-solutions-site/pull/13)).
+  - **Gothic font root-cause fix**: headings had silently rendered in Inter because the --font-gothic theme indirection resolved empty at computed time; h1/h2 and a .font-gothic class now reference var(--font-pirata) directly with weight 400. A "Who we are" section (owner-operated, Enumclaw WA + remote) and an honest "Sites we've built" portfolio (FQ SNRG MMA, The Grease Dojo, Chaotic Command) were added ([PR #14](https://github.com/Chaotic-Minds-Collective/chaotic-solutions-site/pull/14)).
+  - **Typography polish**: cyan-glow headings and brighter body text ([PR #12](https://github.com/Chaotic-Minds-Collective/chaotic-solutions-site/pull/12)).
+
+  ### Chaotic Command
+
+  - **Shared Discord bot on Cloudflare Workers**: the shared Chaotic Command bot landed as a serverless Worker application, including ticketing (channel and record cleanup on failure), modal parsing, and slash-command registration ([PR #45](https://github.com/Chaotic-Minds-Collective/chaotic-command/pull/45)).
+  - **Deploy automation**: a manual one-shot GitHub Actions workflow deploys the bot with wrangler@4, pushes the six Worker secrets from repository secrets, registers slash commands, and prints the workers.dev URL - with secret validation, HTTPS enforcement on the Supabase URL, and redirect rejection added in review ([PR #47](https://github.com/Chaotic-Minds-Collective/chaotic-command/pull/47)).
+  - **Sign-in and gateway hardening**: silent token refresh now routes through the Supabase relay ([PR #44](https://github.com/Chaotic-Minds-Collective/chaotic-command/pull/44)), and Gateway heartbeat watchdog and reconnect/quota races were fixed ([PR #46](https://github.com/Chaotic-Minds-Collective/chaotic-command/pull/46)).
+
+  ### Chaotic Gaming
+
+  - **Security headers**: nosniff, frame-deny with CSP frame-ancestors, strict referrer policy, disabled camera/mic/geo/payment, and a CSP allowing Vercel Analytics and Google Fonts - closing the P1 audit gap ([PR #15](https://github.com/Chaotic-Minds-Collective/chaotic-gaming/pull/15)).
+  - **SEO basics**: robots.txt, sitemap.xml for all six public routes, and a favicon route closing the P2 audit gaps ([PR #16](https://github.com/Chaotic-Minds-Collective/chaotic-gaming/pull/16)).
+  - **Live Discord widget**: the /discord page embeds the official server widget (online count + join) in a branded card, with CSP frame-src and responsive iframe sizing from review ([PR #17](https://github.com/Chaotic-Minds-Collective/chaotic-gaming/pull/17)).
+  - **Platform upgrades**: adopted the org shared CI and removed superseded workflows ([PR #11](https://github.com/Chaotic-Minds-Collective/chaotic-gaming/pull/11)), added Vercel Web Analytics ([PR #12](https://github.com/Chaotic-Minds-Collective/chaotic-gaming/pull/12)), and Dependabot bumps for postcss 8.5.23 and Next.js 16.4.5 ([PR #13](https://github.com/Chaotic-Minds-Collective/chaotic-gaming/pull/13), [PR #14](https://github.com/Chaotic-Minds-Collective/chaotic-gaming/pull/14)).
+
+  ### The Grease Dojo
+
+  - **Security remediation merged - application still pending**: the least-privilege migration and rollback plan merged on the evening of November 5 ([PR #27](https://github.com/Chaotic-Minds-Collective/grease-dojo/pull/27)). Applying it to the Supabase project remains a separate, explicitly approved step and has not been run.
+  - **Multi-page rebrand**: the site gained a multi-page layout under The Greasy Dojo identity ([PR #31](https://github.com/Chaotic-Minds-Collective/grease-dojo/pull/31)), and unused template workflows were removed ([PR #32](https://github.com/Chaotic-Minds-Collective/grease-dojo/pull/32)).
+  - **Search and content**: fixed a broken hero image and made search understand natural-language questions ([PR #33](https://github.com/Chaotic-Minds-Collective/grease-dojo/pull/33)); draft transmission entries (P0700, P0715, P0730 and a conservative won't-shift guide, all mechanic-review-pending) were added and wired into search, the detail dialog, Diagnostic Lab, and the Fix Database ([PR #34](https://github.com/Chaotic-Minds-Collective/grease-dojo/pull/34)).
+  - **Artwork palette**: recolored to the hero artwork's electric blue on navy-black, demoting fire orange to small highlights while keeping the Colombian tricolor accents and hero image ([PR #35](https://github.com/Chaotic-Minds-Collective/grease-dojo/pull/35)); README refreshed to the current project state, including honest draft status and verified content counts ([PR #36](https://github.com/Chaotic-Minds-Collective/grease-dojo/pull/36)).
+
+  ### Collective HQ automation
+
+  - **Daily monitor fixed**: the monitor now scans per-repo because the org-level endpoint 404s with fine-grained PATs, includes unlisted onboarded repos and the .github hub, reports skipped scans, and propagates errors ([PR #10](https://github.com/Chaotic-Minds-Collective/.github/pull/10)), and diagnoses Discord webhook failures in the report with verified mocked behavior ([PR #11](https://github.com/Chaotic-Minds-Collective/.github/pull/11)).
+  - **Instant CI alerts**: shared-ci now calls the notify-failure workflow on push-event CI failures, so onboarded repos get Discord alerts immediately instead of up to 24h later via the daily monitor ([PR #12](https://github.com/Chaotic-Minds-Collective/.github/pull/12)).
+
+  > Deployment verification, November 6 evening: not re-verified at publish time. A Vercel preview deployment for chaotic-gaming failed at 3:25 PM PST. Tally is no longer the Solutions intake path; the new own-form pipeline has not been tested end to end - the only row in inquiries is the November 5 synthetic Edge Function test. Customer inquiries remain at zero since launch.
+
 ## November 5, 2026
   ### Chaotic Solutions
 
