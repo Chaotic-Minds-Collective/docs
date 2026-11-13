@@ -1,6 +1,6 @@
 ---
 title: "Chaotic Minds Gaming (CMG)"
-description: "Meet Chaotic Gaming, the community-focused division for gaming groups, multiplayer servers, websites, tools, and shared experiences."
+description: "Meet Chaotic Minds Gaming (CMG), the community-focused division for gaming groups, multiplayer servers, websites, tools, and shared experiences."
 layout: "page"
 ---
 # Chaotic Minds Gaming (CMG)
