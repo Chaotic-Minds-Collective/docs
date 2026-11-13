@@ -43,7 +43,7 @@ class HandbookTitleTests(unittest.TestCase):
     def test_changed_frontmatter_titles_use_sentence_case(self):
         titles = {
             "brand/identity.md": "Brand identity",
-            "divisions/index.md": "Our divisions",
+            "divisions/index.md": "Our brands and divisions",
             "governance/operating-principles.md": "Operating principles",
             "projects/index.md": "Projects and ventures",
             "technology/security-principles.md": "Technology and security principles",
