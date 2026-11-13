@@ -1,6 +1,6 @@
 ---
 title: "Chaotic Minds Solutions (CMS)"
-description: "Explore Chaotic Solutions, the technical services division for websites, IT support, security reviews, maintenance, and documentation."
+description: "Explore Chaotic Minds Solutions (CMS), the technical services division for websites, IT support, security reviews, maintenance, and documentation."
 layout: "page"
 ---
 # Chaotic Minds Solutions (CMS)
