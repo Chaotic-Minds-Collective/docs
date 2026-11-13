@@ -1,15 +1,16 @@
 ---
-title: "Our divisions"
-description: "Explore the three divisions of Chaotic Minds Collective and understand how their distinct purposes fit within one organization."
+title: "Our brands and divisions"
+description: "Explore the four brands of Chaotic Minds Collective and understand how their distinct purposes fit within one organization."
 layout: "page"
 ---
-# Three divisions. One collective.
+# Four brands. One collective.
 
-Chaotic Minds Collective is organized around three distinct divisions. Each has a clear area of focus, while sharing the parent organization's identity and operating principles.
+Chaotic Minds Collective is organized around four distinct brands. Each has a clear area of focus, while sharing the parent organization's identity and operating principles.
 
-- **[Chaotic Creations](creations.html)** - The creative home for ideas, projects, experiments, and future ventures.
-- **[Chaotic Solutions](solutions.html)** - Website development, technical services, support, security reviews, and documentation.
-- **[Chaotic Gaming](gaming.html)** - Gaming communities, multiplayer servers, websites, tools, and community experiences.
+- **[Chaotic Minds Creations (CMR)](creations.html)** - The creative home for ideas, projects, experiments, and future ventures.
+- **[Chaotic Minds Solutions (CMS)](solutions.html)** - Website development, technical services, support, security reviews, and documentation.
+- **[Chaotic Minds Gaming (CMG)](gaming.html)** - Gaming communities, multiplayer servers, websites, tools, and community experiences.
+- **Chaotic Minds Command (CC)** - Discord management, server administration, and workflow automation.
 
 ## How the divisions relate
 
