@@ -18,7 +18,7 @@ layout: "page"
 
 ## Safe operation
 
-Command is designed around review and explicit confirmation. A proposed setup should be inspected before it is applied, and live community servers should not be used for acceptance testing.
+Command is intended to support review and explicit confirmation. Proposed setups should be inspected before they are applied, and live community servers should not be used for acceptance testing.
 
 The product does not replace an owner's judgment about role permissions, channel privacy, moderation, or ongoing community management. Features and integrations must be verified against the current application documentation before they are described as available.
 
