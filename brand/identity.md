@@ -15,7 +15,7 @@ The core palette is built around:
 - **Electric cyan and turquoise** for the defining accent.
 - Supporting neutral tones where they improve contrast, hierarchy, and readability.
 
-The goal is a coherent family of brands, not three unrelated identities.
+The goal is a coherent family of brands, not four unrelated identities.
 
 ## Original visual language
 
@@ -27,9 +27,10 @@ Use original assets or assets with appropriate licenses. Do not assume names, lo
 
 Each division may use its own emblem, supporting motifs, and additional accent details while retaining the Collective's shared foundation.
 
-- **Creations:** creative expression, original artwork, and experimental ideas.
-- **Solutions:** technical clarity, capability, and practical problem-solving.
-- **Gaming:** community, play, and gaming culture.
+- **Chaotic Minds Creations (CMR):** creative expression, original artwork, and experimental ideas.
+- **Chaotic Minds Solutions (CMS):** technical clarity, capability, and practical problem-solving.
+- **Chaotic Minds Gaming (CMG):** community, play, and gaming culture.
+- **Chaotic Minds Command (CC):** Discord management, administration, and workflow automation.
 
 ## Applying the identity
 
