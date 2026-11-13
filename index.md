@@ -9,9 +9,10 @@ layout: "page"
 
 Chaotic Minds Collective brings together creative work, technical services, and gaming communities under one shared identity. Each division has its own focus. Together, they make room for ideas to become useful projects, services, and experiences.
 
-- **[Chaotic Creations](divisions/creations.html)** - The creative home for ideas, projects, experiments, and future ventures.
-- **[Chaotic Solutions](divisions/solutions.html)** - Website development, IT support, security reviews, maintenance, and documentation.
-- **[Chaotic Gaming](divisions/gaming.html)** - Gaming communities, multiplayer servers, websites, tools, and shared experiences.
+- **[Chaotic Minds Creations (CMR)](divisions/creations.html)** - The creative home for ideas, projects, experiments, and future ventures.
+- **[Chaotic Minds Solutions (CMS)](divisions/solutions.html)** - Website development, IT support, security reviews, maintenance, and documentation.
+- **[Chaotic Minds Gaming (CMG)](divisions/gaming.html)** - Gaming communities, multiplayer servers, websites, tools, and shared experiences.
+- **Chaotic Minds Command (CC)** - Discord management, server administration, and workflow automation.
 
 ## Start here
 
