@@ -7,15 +7,15 @@ layout: "page"
 
 Chaotic Minds Collective supports work at different stages, from early ideas to active development and released offerings. A project name or concept appearing here does not, by itself, mean that it is approved, launched, or available to the public.
 
-## Chaotic Command
+## Chaotic Minds Command (CC)
 
-**Chaotic Command** is a Discord server command center concept intended to help people build new servers and improve or reorganize existing ones. Its intended scope includes guided server setup and server-revamp workflows.
+**Chaotic Minds Command (CC)** is a Discord server command center concept intended to help people build new servers and improve or reorganize existing ones. Its intended scope includes guided server setup and server-revamp workflows.
 
 The project is under active development. Features, integrations, and release status should be confirmed against its current project documentation and repository rather than inferred from this overview.
 
-## The Diagnostic Bay
+## Grease Dojo
 
-**The Diagnostic Bay** is a separate automotive diagnostic website project under the broader organization. It maintains its own scope, technical requirements, roadmap, and approval process.
+**Grease Dojo** is the Chaotic Minds Collective automotive diagnostics education and reference project. It maintains its own scope, technical requirements, roadmap, and approval process.
 
 It should not be treated as a division or assumed to share the delivery status of another Collective project.
 

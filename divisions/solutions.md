@@ -1,13 +1,13 @@
 ---
-title: "Chaotic Solutions"
-description: "Explore Chaotic Solutions, the technical services division for websites, IT support, security reviews, maintenance, and documentation."
+title: "Chaotic Minds Solutions (CMS)"
+description: "Explore Chaotic Minds Solutions (CMS), the technical services division for websites, IT support, security reviews, maintenance, and documentation."
 layout: "page"
 ---
-# Chaotic Solutions
+# Chaotic Minds Solutions (CMS)
 
 > **The Method to Your Madness.**
 
-**Chaotic Solutions** is the technical services division of Chaotic Minds Collective. Its focus is turning complicated or disorganized technical needs into workable, maintainable solutions.
+**Chaotic Minds Solutions (CMS)** is the technical services division of Chaotic Minds Collective. Its focus is turning complicated or disorganized technical needs into workable, maintainable solutions.
 
 ## Areas of work
 
@@ -27,4 +27,4 @@ We aim to understand the existing environment before changing it, preserve worki
 
 ## Identity
 
-Chaotic Solutions shares the Collective's black, charcoal, and electric-cyan foundation. Its visual identity uses the family motifs in a way that communicates technical capability and practical problem-solving.
+Chaotic Minds Solutions shares the Collective's black, charcoal, and electric-cyan foundation. Its visual identity uses the family motifs in a way that communicates technical capability and practical problem-solving.

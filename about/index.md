@@ -5,7 +5,7 @@ layout: "page"
 ---
 # About Chaotic Minds Collective
 
-Chaotic Minds Collective is the parent organization bringing together distinct creative, technical, and gaming ventures. It gives those ventures a shared identity and a common foundation while allowing each division to develop its own purpose, audience, and work.
+Chaotic Minds Collective is the parent organization bringing together four distinct brands spanning creative work, technical services, gaming, and command tools. It gives those ventures a shared identity and a common foundation while allowing each brand to develop its own purpose, audience, and work.
 
 The Collective is built around a simple idea: unconventional thinking can produce useful, original work when creativity is paired with structure, care, and follow-through.
 
@@ -17,11 +17,12 @@ The organization has since grown beyond gaming into a broader home for technical
 
 ## One collective, distinct divisions
 
-Chaotic Minds Collective brings together three divisions:
+Chaotic Minds Collective brings together four brands:
 
-- **Chaotic Creations** is the creative home for ideas, projects, experiments, and future ventures.
-- **Chaotic Solutions** focuses on website development, technical support, security reviews, maintenance, and documentation.
-- **Chaotic Gaming** builds gaming communities, multiplayer experiences, and supporting tools.
+- **Chaotic Minds Creations (CMR)** is the creative home for ideas, projects, experiments, and future ventures.
+- **Chaotic Minds Solutions (CMS)** focuses on website development, technical support, security reviews, maintenance, and documentation.
+- **Chaotic Minds Gaming (CMG)** builds gaming communities, multiplayer experiences, and supporting tools.
+- **Chaotic Minds Command (CC)** develops Discord management, administration, and workflow automation products.
 
 Each division has its own responsibilities and identity. The shared Collective brand connects them without making them interchangeable.
 
