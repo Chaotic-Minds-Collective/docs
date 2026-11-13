@@ -1,13 +1,13 @@
 ---
-title: "Chaotic Gaming"
+title: "Chaotic Minds Gaming (CMG)"
 description: "Meet Chaotic Gaming, the community-focused division for gaming groups, multiplayer servers, websites, tools, and shared experiences."
 layout: "page"
 ---
-# Chaotic Gaming
+# Chaotic Minds Gaming (CMG)
 
 > **For Gamers, By Gamers.**
 
-**Chaotic Gaming** grew from the experience of people who wanted a gaming community where they felt welcome, heard, and able to build something together.
+**Chaotic Minds Gaming (CMG)** grew from the experience of people who wanted a gaming community where they felt welcome, heard, and able to build something together.
 
 The division focuses on gaming communities and the experiences that support them.
 
@@ -25,8 +25,8 @@ The division's interests include games such as 7 Days to Die, ARK, Palworld, Val
 
 A gaming community is more than its server software. Clear expectations, useful tools, fair moderation, communication, and respect for members all contribute to a better experience.
 
-Specific communities may establish their own rules and operating details. Those rules should be documented with the relevant community rather than assumed to apply to every Chaotic Gaming project.
+Specific communities may establish their own rules and operating details. Those rules should be documented with the relevant community rather than assumed to apply to every Chaotic Minds Gaming project.
 
 ## Identity
 
-Chaotic Gaming shares the Collective's dark visual foundation and family identity, with room for its own accent colors and gaming-focused emblem.
+Chaotic Minds Gaming shares the Collective's dark visual foundation and family identity, with room for its own accent colors and gaming-focused emblem.
