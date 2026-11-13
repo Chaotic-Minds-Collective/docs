@@ -10,7 +10,7 @@ Chaotic Minds Collective is organized around four distinct brands. Each has a cl
 - **[Chaotic Minds Creations (CMR)](creations.html)** - The creative home for ideas, projects, experiments, and future ventures.
 - **[Chaotic Minds Solutions (CMS)](solutions.html)** - Website development, technical services, support, security reviews, and documentation.
 - **[Chaotic Minds Gaming (CMG)](gaming.html)** - Gaming communities, multiplayer servers, websites, tools, and community experiences.
-- **Chaotic Minds Command (CC)** - Discord management, server administration, and workflow automation.
+- **[Chaotic Minds Command (CC)](command.html)** - Discord management, server administration, and workflow automation.
 
 ## How the divisions relate
 
@@ -19,6 +19,7 @@ The divisions are not interchangeable departments. They exist to keep different 
 - Creations provides a home for original ideas and ventures as they take shape.
 - Solutions delivers practical technical work and services.
 - Gaming focuses on communities and experiences built around games.
+- Command focuses on Discord server management, administration, and workflow automation.
 
 A project belongs in the division that best matches its purpose. Cross-division collaboration is possible when a project genuinely needs it, but a shared brand does not automatically make every project a shared product.
 
