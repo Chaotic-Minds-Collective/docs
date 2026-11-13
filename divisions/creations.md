@@ -1,11 +1,11 @@
 ---
-title: "Chaotic Creations"
+title: "Chaotic Minds Creations (CMR)"
 description: "Discover the creative division of Chaotic Minds Collective, a home for original ideas, experiments, projects, and future ventures."
 layout: "page"
 ---
-# Chaotic Creations
+# Chaotic Minds Creations (CMR)
 
-**Chaotic Creations** is the creative home of Chaotic Minds Collective. It exists to give original ideas room to develop, whether they become standalone projects, digital products, experiments, intellectual property, or future ventures.
+**Chaotic Minds Creations (CMR)** is the creative home of Chaotic Minds Collective. It exists to give original ideas room to develop, whether they become standalone projects, digital products, experiments, intellectual property, or future ventures.
 
 Creations is intentionally broad. Not every idea is a product, and not every experiment is a commitment to launch. The division provides a place to explore possibilities without confusing exploration with approval or release.
 
