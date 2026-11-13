@@ -5,7 +5,7 @@ layout: "page"
 ---
 # About Chaotic Minds Collective
 
-Chaotic Minds Collective is the parent organization bringing together distinct creative, technical, and gaming ventures. It gives those ventures a shared identity and a common foundation while allowing each division to develop its own purpose, audience, and work.
+Chaotic Minds Collective is the parent organization bringing together four distinct brands spanning creative work, technical services, gaming, and command tools. It gives those ventures a shared identity and a common foundation while allowing each brand to develop its own purpose, audience, and work.
 
 The Collective is built around a simple idea: unconventional thinking can produce useful, original work when creativity is paired with structure, care, and follow-through.
 
